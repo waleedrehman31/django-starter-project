@@ -1,0 +1,7 @@
+First we need to install PYTHON.
+After installing PYTHON we need to install Virtual enviroment by using `pip install pipenv` cammand
+After that we need to install django by using `pipenv install django`
+To active the virtual enviroment using this cammand `pipenv shell`
+To create django app we need to run this cammand `django-admin startproject APP_NAME` OR `django-admin startproject APP_NAME .` use second cammad to create in same folder
+To start the django app using this cammand `python manage.py runserver 9000` 9000 is a port number it by default is 8000
+For finding the venv path we run following cammand `pipenv --venv`
